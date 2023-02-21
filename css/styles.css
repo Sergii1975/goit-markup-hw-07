@@ -166,7 +166,7 @@ img {
 }
 @media screen and (max-width: 480px) {
     .logo-link {
-        padding: 0;
+        /* padding: 0; */
         top: 24px;
         left: 16px;
     }
@@ -1294,9 +1294,9 @@ transition-delay: 250ms;
   top: 0;
   left: 0;
   width: 100vw; 
-  height: 100%;
+  /* height: 100%; */
   padding-top: 80px;
-  /* height: 100vh; */
+  height: 100vh;
   padding-left: 40px;
   padding-bottom: 40px;
   background-color: var(--background-color);
