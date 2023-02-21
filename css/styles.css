@@ -458,7 +458,7 @@ background-color: var(--pressed-state-color);
         justify-content: center;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .advantage-item:not(:last-child) {
         margin-bottom: 72px;
         display: block; 
@@ -469,7 +469,7 @@ background-color: var(--pressed-state-color);
         display: flex;
         flex-wrap: wrap; 
         width: 356px;
-        height: 120px;  
+        height: 120px; 
     }
 } 
 
