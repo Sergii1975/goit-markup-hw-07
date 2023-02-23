@@ -662,7 +662,6 @@ background-color: var(--pressed-state-color);
     margin: 0 auto;
     padding-top: 96px;
     padding-bottom: 96px;
-    /* padding-left: 108px; */
    } 
 }
 @media screen and (min-width: 1200px) {
@@ -670,6 +669,7 @@ background-color: var(--pressed-state-color);
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 0;
    } 
 }
 .wrapper {
@@ -684,7 +684,7 @@ background-color: var(--pressed-state-color);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-left: 108px
+    padding-left: 108px;
    } 
 } 
 @media screen and (min-width: 1200px) {
@@ -693,7 +693,6 @@ background-color: var(--pressed-state-color);
     flex-direction: row;
     justify-content: space-between;
     gap: 80px;
-     
    } 
 } 
 .under-wrapper {
