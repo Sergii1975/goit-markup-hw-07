@@ -678,8 +678,7 @@ background-color: var(--pressed-state-color);
    .wrapper {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 108px;
+    padding-left: 108px
    } 
 } 
 @media screen and (min-width: 1200px) {
@@ -687,7 +686,7 @@ background-color: var(--pressed-state-color);
     display: flex;
     flex-direction: row;
     gap: 80px;
-    justify-content: space-between;
+     
    } 
 } 
 .under-wrapper {
