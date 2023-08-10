@@ -840,7 +840,7 @@ background-color: var(--pressed-state-color);
     background-color: transparent;
     transition: outline-color 500ms;
 }
-.input-group_input:focus, :valid {
+.input-group_input:is(:focus, :valid) {
     outline-color: #3c50eb;
 }
 .input-group_label {
